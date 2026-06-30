@@ -1,0 +1,7 @@
+Open a PR.
+Wait for review bot comments.
+Process each finding one by one.
+Apply the comments that fit the change.
+Reply to the rest.
+Resolve the threads.
+Do not escalate to human review until the PR is clean.

@@ -1,0 +1,13 @@
+flowchart TB
+    A["Task"] --> B["Separate branch / worktree"]
+    B --> C["pre-commit"]
+    C --> D["pre-push"]
+    D --> E["Pull request"]
+    E --> F["CI: build + tests + linters"]
+    F --> G["AI review / review comments"]
+    G --> H["A human checks the invariants and the result"]
+    H --> I["Merge"]
+
+    F -- fail --> B
+    G -- unresolved --> B
+    H -- risk / doubt --> B

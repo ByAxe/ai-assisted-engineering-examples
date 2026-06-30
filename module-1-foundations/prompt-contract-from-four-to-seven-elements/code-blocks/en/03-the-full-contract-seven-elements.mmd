@@ -1,0 +1,17 @@
+flowchart TB
+    subgraph Min["Minimum — 4 elements"]
+        A["Context"]
+        B["Constraints"]
+        C["Minimum expected changes"]
+        D["Verification"]
+    end
+    subgraph Full["Full contract — 7 elements"]
+        P["Problem"]
+        A2["Context"]
+        B2["Constraints"]
+        C2["Minimum expected changes"]
+        V2["Verification method"]
+        I2["Integration with existing code"]
+        PR2["Principles"]
+    end
+    Min -->|"grows for large and long tasks"| Full

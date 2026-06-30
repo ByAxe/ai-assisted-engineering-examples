@@ -1,0 +1,23 @@
+{
+  "trigger": "contract_tests_passed",
+  "task_id": "audit-query-api",
+  "spawn": [
+    "audit-export-worker",
+    "rbac-redaction-worker"
+  ],
+  "baseline": {
+    "schema": "v3",
+    "policy": "redaction-2026-06-19"
+  },
+  "context": [
+    "memory/working/current-state.md",
+    "memory/episodic/audit-query-api.md",
+    "contracts/audit-query-api.yaml"
+  ],
+  "stop_when": [
+    "export contract passes",
+    "rbac checks pass",
+    "pii redaction contract passes"
+  ],
+  "fallback": "pause_and_request_review"
+}

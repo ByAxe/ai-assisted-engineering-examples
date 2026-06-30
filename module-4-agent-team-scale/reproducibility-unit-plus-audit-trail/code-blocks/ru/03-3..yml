@@ -1,0 +1,43 @@
+events:
+  - ts: "2026-06-21T10:14:03Z"
+    actor: ivan.petrov
+    action: start_workflow
+    target: query-api-readonly@v2
+    outcome: accepted
+  - ts: "2026-06-21T10:14:11Z"
+    actor: query-api-impl
+    action: read_artifact
+    target: .specs/audit-log-query/spec.md@v4
+    outcome: loaded
+  - ts: "2026-06-21T10:16:42Z"
+    actor: query-api-impl
+    action: tool_call
+    target: readonly_sql via db-read-proxy@v5
+    outcome: success
+    evidence: trace://langfuse/tr_01JY7Y3.../span/17
+  - ts: "2026-06-21T10:18:05Z"
+    actor: query-api-impl
+    action: modify_file
+    target: src/query_api.ts
+    outcome: success
+  - ts: "2026-06-21T10:18:41Z"
+    actor: query-api-impl
+    action: modify_control_plane
+    target: AGENTS.md
+    outcome: success
+  - ts: "2026-06-21T10:21:12Z"
+    actor: query-api-impl
+    action: run_tests
+    target: query-api-regression@v2
+    outcome: passed
+    evidence: ci://github/actions/184
+  - ts: "2026-06-21T10:23:44Z"
+    actor: review-bot
+    action: review
+    target: PR #184
+    outcome: 2_comments
+  - ts: "2026-06-21T10:26:18Z"
+    actor: query-api-impl
+    action: resolve_review
+    target: PR #184
+    outcome: threads_closed

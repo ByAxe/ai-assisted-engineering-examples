@@ -1,0 +1,8 @@
+Current Behavior (Defect)
+  WHEN <condition> THEN the system <incorrect behavior>
+
+Expected Behavior (Correct)
+  WHEN <condition> THEN the system SHALL <correct behavior>
+
+Unchanged Behavior (Regression Prevention)
+  WHEN <condition> THEN the system SHALL CONTINUE TO <existing behavior>

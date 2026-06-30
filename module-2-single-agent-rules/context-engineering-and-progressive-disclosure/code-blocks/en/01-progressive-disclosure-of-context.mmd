@@ -1,0 +1,4 @@
+flowchart TD
+	A["Top layer: pointers and metadata, always in the window"] --> B{"Does the model need to go deeper?"}
+	B -->|"yes"| C["The body is loaded: details, instructions, specification"]
+	B -->|"no"| D["The window stays light"]

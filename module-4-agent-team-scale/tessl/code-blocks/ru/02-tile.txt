@@ -1,0 +1,13 @@
+repo/
+├── AGENTS.md
+├── tessl.json
+├── .mcp.json
+└── .tessl/
+    ├── RULES.md
+    └── tiles/
+        └── workspace/
+            └── audit-log-context/
+                ├── tile.json
+                ├── docs/
+                ├── rules/
+                └── skills/

@@ -1,0 +1,4 @@
+flowchart TB
+    A["Спека: requirements, design, tasks готовы"] -->|"прогон агентом по чек-листу"| B["Отчёт PASS / FAIL / WEAK"]
+    B -->|"есть FAIL: правка спеки"| A
+    B -->|"FAIL нет: переход к плану"| C["plan mode"]

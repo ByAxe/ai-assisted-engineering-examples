@@ -1,0 +1,8 @@
+flowchart TB
+    B["Brain<br/>model + harness loop"]
+    H["Hands<br/>sandbox / worktree / tools"]
+    S["Session<br/>append-only event log"]
+
+    B --> H
+    H --> S
+    S --> B

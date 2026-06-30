@@ -1,0 +1,6 @@
+flowchart TB
+    A["Thin AGENTS.md skeleton"] --> B["Prompt on a real task"]
+    B --> C["Agent writes the code"]
+    C --> D["Diff: what the agent filled in itself"]
+    D --> E["Second pass: write into AGENTS.md"]
+    E -->|"new turn"| B

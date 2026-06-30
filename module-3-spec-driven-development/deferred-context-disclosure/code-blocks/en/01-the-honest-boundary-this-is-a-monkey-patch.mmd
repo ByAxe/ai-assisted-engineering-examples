@@ -1,0 +1,5 @@
+flowchart TB
+    A["Pin down where you work<br/>service, folder, module"] --> B["Top layer: pointers and the repository map"]
+    B --> C["Going deeper only into relevant sections, on demand"]
+    D["Hooks and meta-agents:<br/>ls and grep confined to paths"] --> C
+    C --> E["Boundary: monkey patch<br/>over the repository map and the call graph"]

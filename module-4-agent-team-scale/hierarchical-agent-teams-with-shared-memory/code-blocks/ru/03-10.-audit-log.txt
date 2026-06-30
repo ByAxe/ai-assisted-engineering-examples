@@ -1,0 +1,19 @@
+coordination/
+  task-graph.json
+  session-log/
+    2026-06-17.ndjson
+    2026-06-18.ndjson
+  handoffs/
+    audit-query-api.json
+    audit-export-rbac.json
+  memory/
+    working/
+      current-state.md
+      blockers.md
+    episodic/
+      audit-query-api.md
+      audit-export-rbac.md
+    semantic/
+      glossary.md
+      redaction-policy.md
+      api-conventions.md

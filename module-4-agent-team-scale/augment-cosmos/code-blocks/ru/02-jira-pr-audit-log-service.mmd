@@ -1,0 +1,9 @@
+flowchart TD
+    JiraStatus["Смена статуса в Jira"] -->|пробуждает| PRAuthor["PR Author"]
+    PRAuthor -->|стартует| Session["Session в среде audit-platform"]
+    Session -->|читает| Inputs["тикет + локальная спецификация + контекст репозитория + Files/Skills"]
+    Session -->|открывает| Branch["ветка + PR"]
+    Branch -->|маршрутизирует| RiskAnalyzer["PR Risk Analyzer"]
+    RiskAnalyzer --> Review["Deep Review / Pair Reviewer / ручной контроль"]
+    Review -->|сохраняет| Artifacts["Artifacts: PR + ветка + ссылка на задачу"]
+    Artifacts -->|выжимка| Knowledge["переиспользуемые знания о репозитории"]

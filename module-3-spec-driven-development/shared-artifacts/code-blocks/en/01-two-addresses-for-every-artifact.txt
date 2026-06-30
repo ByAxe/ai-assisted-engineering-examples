@@ -1,0 +1,10 @@
+<repo>/
+├── .codex/
+│   ├── skills/spec-self-eval/SKILL.md
+│   ├── skills/spec-self-eval/references/_eval-checklist.md
+│   ├── hooks/spec_eval_gate.py
+│   └── config.toml                     # with a registered [[hooks.Stop]]
+├── .claude/skills/spec-self-eval/...   # mirror for Claude Code
+└── .specs/query-api/
+    ├── requirements.md, design.md, tasks.md
+    └── eval-report-<date>.md

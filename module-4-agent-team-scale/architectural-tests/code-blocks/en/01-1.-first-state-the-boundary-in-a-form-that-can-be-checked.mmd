@@ -1,0 +1,8 @@
+flowchart TB
+    A["api.query"] --> B["application.query"]
+    B --> C["read repository"]
+    D["api.append"] --> E["application.append"]
+    E --> F["write repository"]
+    A -. forbidden .-> D
+    B -. forbidden .-> E
+    C -. forbidden .-> F

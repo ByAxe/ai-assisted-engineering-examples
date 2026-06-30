@@ -1,0 +1,11 @@
+Configure a Codex `Stop` lifecycle hook in this repo.
+Goal: whenever I touch any file under .specs/<feature>/ during a turn,
+the hook must run our spec-self-eval skill on that feature folder
+before the turn is allowed to close. If the skill report contains any
+[FAIL] items, the hook must block the turn from closing and tell the
+agent which items failed, so it fixes the spec first. If nothing under
+.specs/ was touched, or the eval passes, the turn closes normally.
+Put the hook script under <repo>/.codex/hooks/ and register it in
+<repo>/.codex/config.toml. Make sure the `codex_hooks` feature flag is on.
+Then walk me through how to verify it actually fires — both on the FAIL
+path and on the clean path.

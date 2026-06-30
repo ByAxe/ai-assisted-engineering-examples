@@ -1,0 +1,7 @@
+Every week the AI champion does the following things:
+
+1. Notices one new working life hack / technique or one recurring difficulty.
+2. Tests it on a real task, not on an abstract demo.
+3. Shows the result to the team in a short and clear form.
+4. If it recurs, moves it into an artifact in the repository or into a rule.
+5. If the question goes beyond the team, escalates through the manager.

@@ -1,0 +1,7 @@
+plan: query-api
+T1  Flyway V2 indexes          files: db/migration/V2__query_indexes.sql     verify: миграция применяется на пустой и непустой БД
+T2  query request + validation  files: api/query/AuditEventsQueryRequest.java   verify: unit-тест на правило (диапазон > 31d -> 422)
+T3  cursor codec encode/decode  files: infrastructure/query/CursorCodec.java   verify: unit-тест, в т.ч. битый курсор и подпись
+T4  repository keyset search    files: infrastructure/query/AuditEventReadRepository.java   verify: integration-тест, 250 событий, без пропусков и дублей
+T5  controller + error mapping  files: api/query/QueryAuditEventsController.java   verify: 200 + 400 + 422 + пустой результат
+T6  AGENTS.md: read-only note    files: AGENTS.md                              verify: строка-инвариант просмотрена

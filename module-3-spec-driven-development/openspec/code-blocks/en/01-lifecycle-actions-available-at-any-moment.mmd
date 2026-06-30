@@ -1,0 +1,9 @@
+flowchart TB
+    P["proposal.md<br/>why and what we change"] --> S["specs/<br/>requirements: ADDED/MODIFIED/REMOVED"]
+    P --> D["design.md<br/>how"]
+    S --> T["tasks.md<br/>implementation checklist"]
+    D --> T
+    T --> A["apply<br/>implementation"]
+    A --> AR["archive<br/>into history"]
+    A -.->|as needed| SY["sync<br/>delta into canon"]
+    SY -.-> AR

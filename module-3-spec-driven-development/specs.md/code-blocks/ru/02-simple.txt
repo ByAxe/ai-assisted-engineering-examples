@@ -1,0 +1,4 @@
+specs/query-api/
+├── requirements.md
+├── design.md
+└── tasks.md

@@ -1,0 +1,230 @@
+# Book Map
+
+Use this file when the printed book or education program points to a reusable artifact.
+The map uses stable source labels and public repository paths.
+
+## Module 0
+
+- **Audit Log Service running example** (runnable-project): `module-0-running-example/audit-log-service/` - Sanitized runnable Spring Boot service used throughout the book and education program.
+
+## Module 1
+
+- **Audit Log Service seed prompt** (prompt): `module-1-foundations/audit-log-service-seed-prompt/seed-prompt.md` - Initial prompt used to introduce the running Audit Log Service case.
+- **Module folder guide** (README): `module-1-foundations/README.md` - Short orientation for Module 1: Foundations.
+- **Three modes of working with AI** (mermaid): `module-1-foundations/three-modes-of-working-with-ai/code-blocks/en/01-agent-mode-plan-act-verify-fix.mmd` - EN copyable mermaid block from Three modes of working with AI.
+- **Feedback loop is more important than model choice** (mermaid): `module-1-foundations/feedback-loop-is-more-important-than-model-choice/code-blocks/en/01-the-agent-as-a-loss-function-why-the-generally-fine-signal-isnt-enough.mmd` - EN copyable mermaid block from Feedback loop is more important than model choice.
+- **Prompt vs context** (mermaid): `module-1-foundations/prompt-vs-context/code-blocks/en/01-context-a-space-and-a-source-of-truth.mmd` - EN copyable mermaid block from Prompt vs context.
+- **Prompt contract: from four to seven elements** (code-block): `module-1-foundations/prompt-contract-from-four-to-seven-elements/code-blocks/en/01-the-minimal-contract-four-elements.md` - EN copyable markdown block from Prompt contract: from four to seven elements.
+- **Prompt contract: from four to seven elements** (code-block): `module-1-foundations/prompt-contract-from-four-to-seven-elements/code-blocks/en/02-the-full-contract-seven-elements.md` - EN copyable markdown block from Prompt contract: from four to seven elements.
+- **Prompt contract: from four to seven elements** (mermaid): `module-1-foundations/prompt-contract-from-four-to-seven-elements/code-blocks/en/03-the-full-contract-seven-elements.mmd` - EN copyable mermaid block from Prompt contract: from four to seven elements.
+- **Three modes of working with AI** (mermaid): `module-1-foundations/three-modes-of-working-with-ai/code-blocks/ru/01-agent-mode.mmd` - RU copyable mermaid block from Урок 2. Три режима работы с AI.
+- **Feedback loop is more important than model choice** (mermaid): `module-1-foundations/feedback-loop-is-more-important-than-model-choice/code-blocks/ru/01-loss.mmd` - RU copyable mermaid block from Урок 3. Feedback loop важнее выбора модели.
+- **Prompt vs context** (mermaid): `module-1-foundations/prompt-vs-context/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Урок 5. Prompt vs Context.
+- **Prompt contract: from four to seven elements** (code-block): `module-1-foundations/prompt-contract-from-four-to-seven-elements/code-blocks/ru/01-artifact.md` - RU copyable markdown block from Урок 6. Контракт промпта: от 4 к 7 элементам.
+- **Prompt contract: from four to seven elements** (code-block): `module-1-foundations/prompt-contract-from-four-to-seven-elements/code-blocks/ru/02-artifact.md` - RU copyable markdown block from Урок 6. Контракт промпта: от 4 к 7 элементам.
+- **Prompt contract: from four to seven elements** (mermaid): `module-1-foundations/prompt-contract-from-four-to-seven-elements/code-blocks/ru/03-artifact.mmd` - RU copyable mermaid block from Урок 6. Контракт промпта: от 4 к 7 элементам.
+
+## Module 2
+
+- **Shared language** (rubric): `module-2-single-agent-rules/shared-language/rubric.md` - Rubric for positioning a team on the AI-assisted engineering maturity map.
+- **Shared language** (template): `module-2-single-agent-rules/shared-language/access-map-template.md` - Template for mapping repo, tooling, CI, secrets, and agent access.
+- **Shared language** (outline): `module-2-single-agent-rules/shared-language/shared-language-outline.md` - Short outline for the shared language used before writing steering rules.
+- **Two-pass AGENTS.md** (AGENTS.md): `module-2-single-agent-rules/two-pass-agents-md/AGENTS.first-pass.md` - Thin first-pass steering file with hard invariants.
+- **Two-pass AGENTS.md** (AGENTS.md): `module-2-single-agent-rules/two-pass-agents-md/AGENTS.second-pass.md` - Revised steering file after the agent produced a real aggregate and tests.
+- **Module folder guide** (README): `module-2-single-agent-rules/README.md` - Short orientation for Module 2: Single Agent Rules.
+- **Four-layer steering architecture** (mermaid): `module-2-single-agent-rules/four-layer-steering-architecture/code-blocks/en/01-code-block-1.mmd` - EN copyable mermaid block from Four-layer steering architecture.
+- **Two-pass AGENTS.md** (mermaid): `module-2-single-agent-rules/two-pass-agents.md/code-blocks/en/01-the-loop-and-emergence.mmd` - EN copyable mermaid block from Two-pass AGENTS.md.
+- **Context engineering and progressive disclosure** (mermaid): `module-2-single-agent-rules/context-engineering-and-progressive-disclosure/code-blocks/en/01-progressive-disclosure-of-context.mmd` - EN copyable mermaid block from Context engineering and progressive disclosure.
+- **Spec-anchored** (mermaid): `module-2-single-agent-rules/spec-anchored/code-blocks/en/01-three-documents-requirements-design-tasks.mmd` - EN copyable mermaid block from Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/en/02-tasks.md-in-what-order.js` - EN copyable javascript block from Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/en/03-requirements.md-excerpt.md` - EN copyable markdown block from Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/en/04-design.md-excerpt.md` - EN copyable markdown block from Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/en/05-tasks.md-excerpt.md` - EN copyable markdown block from Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/en/06-self-eval-in-action.txt` - EN copyable text block from Spec-anchored.
+- **Four-layer steering architecture** (mermaid): `module-2-single-agent-rules/four-layer-steering-architecture/code-blocks/ru/01-code-block-1.mmd` - RU copyable mermaid block from Урок 8. 4-слойная steering-архитектура (обзор).
+- **Two-pass AGENTS.md** (mermaid): `module-2-single-agent-rules/two-pass-agents.md/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Паттерн 2. Two-pass AGENTS.md (живой артефакт).
+- **Context engineering and progressive disclosure** (mermaid): `module-2-single-agent-rules/context-engineering-and-progressive-disclosure/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Урок 9. Context engineering и progressive disclosure.
+- **Spec-anchored** (mermaid): `module-2-single-agent-rules/spec-anchored/code-blocks/ru/01-requirements-design-tasks.mmd` - RU copyable mermaid block from Методология 1. Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/ru/02-tasks.md.js` - RU copyable javascript block from Методология 1. Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/ru/03-requirements.md.md` - RU copyable markdown block from Методология 1. Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/ru/04-design.md.md` - RU copyable markdown block from Методология 1. Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/ru/05-tasks.md.md` - RU copyable markdown block from Методология 1. Spec-anchored.
+- **Spec-anchored** (code-block): `module-2-single-agent-rules/spec-anchored/code-blocks/ru/06-self-eval.txt` - RU copyable text block from Методология 1. Spec-anchored.
+
+## Module 3
+
+- **Spec-anchored development** (spec): `module-3-spec-driven-development/spec-anchored/product/requirements.md` - Product-level requirements for the running Audit Log Service example.
+- **Spec-anchored development** (spec): `module-3-spec-driven-development/spec-anchored/product/design.md` - Product-level design for the running Audit Log Service example.
+- **Spec-anchored development** (spec): `module-3-spec-driven-development/spec-anchored/product/tasks.md` - Product-level tasks for the running Audit Log Service example.
+- **Spec-anchored development** (spec): `module-3-spec-driven-development/spec-anchored/product/plan.md` - Execution plan/progress record for the running Audit Log Service example.
+- **Query API specification** (spec): `module-3-spec-driven-development/query-api/query-api.md` - Feature specification for the read-only Query API over audit events.
+- **Module folder guide** (README): `module-3-spec-driven-development/README.md` - Short orientation for Module 3: Spec-Driven Development.
+- **Deterministic spec stages** (mermaid): `module-3-spec-driven-development/deterministic-spec-stages/code-blocks/en/01-the-principle-the-more-deterministic-stages-the-more-precise-the-result.mmd` - EN copyable mermaid block from Deterministic spec stages.
+- **Deterministic spec stages** (code-block): `module-3-spec-driven-development/deterministic-spec-stages/code-blocks/en/02-the-last-stage-the-plan-before-the-code.txt` - EN copyable text block from Deterministic spec stages.
+- **Agent loops / harness engineering** (mermaid): `module-3-spec-driven-development/agent-loops-harness-engineering/code-blocks/en/01-at-the-input-of-each-iteration-a-new-goal-and-a-narrow-context.mmd` - EN copyable mermaid block from Agent loops / harness engineering.
+- **Spec self and auto evals** (code-block): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/en/01-the-checklist-a-file-in-the-repository.md` - EN copyable markdown block from Spec self and auto evals.
+- **Spec self and auto evals** (code-block): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/en/02-the-agent-run-through.txt` - EN copyable text block from Spec self and auto evals.
+- **Spec self and auto evals** (code-block): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/en/03-the-agent-run-through.txt` - EN copyable text block from Spec self and auto evals.
+- **Spec self and auto evals** (mermaid): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/en/04-the-launch-window.mmd` - EN copyable mermaid block from Spec self and auto evals.
+- **Hooks: lifecycle vs git-style** (mermaid): `module-3-spec-driven-development/hooks-lifecycle-vs-git-style/code-blocks/en/01-the-scenario.mmd` - EN copyable mermaid block from Hooks: lifecycle vs git-style.
+- **Hooks: lifecycle vs git-style** (code-block): `module-3-spec-driven-development/hooks-lifecycle-vs-git-style/code-blocks/en/02-the-hook-is-written-by-the-agent.txt` - EN copyable text block from Hooks: lifecycle vs git-style.
+- **Hooks: lifecycle vs git-style** (code-block): `module-3-spec-driven-development/hooks-lifecycle-vs-git-style/code-blocks/en/03-verification-break-it-and-see-the-block.txt` - EN copyable text block from Hooks: lifecycle vs git-style.
+- **CI/CD as loss function** (mermaid): `module-3-spec-driven-development/cicd-as-loss-function/code-blocks/en/01-the-closed-loop-and-access-to-signals.mmd` - EN copyable mermaid block from CI/CD as loss function.
+- **Reusable workflow** (code-block): `module-3-spec-driven-development/reusable-workflow/code-blocks/en/01-a-skill-is-a-folder.txt` - EN copyable text block from Reusable workflow.
+- **Reusable workflow** (code-block): `module-3-spec-driven-development/reusable-workflow/code-blocks/en/02-where-to-get-them-and-how-to-create-them.txt` - EN copyable text block from Reusable workflow.
+- **Reusable workflow** (mermaid): `module-3-spec-driven-development/reusable-workflow/code-blocks/en/03-where-to-get-them-and-how-to-create-them.mmd` - EN copyable mermaid block from Reusable workflow.
+- **Shared artifacts** (code-block): `module-3-spec-driven-development/shared-artifacts/code-blocks/en/01-two-addresses-for-every-artifact.txt` - EN copyable text block from Shared artifacts.
+- **Shared artifacts** (mermaid): `module-3-spec-driven-development/shared-artifacts/code-blocks/en/02-who-brings-in-artifacts.mmd` - EN copyable mermaid block from Shared artifacts.
+- **Meta approach** (code-block): `module-3-spec-driven-development/meta-approach/code-blocks/en/01-a-skill-in-one-command.txt` - EN copyable text block from Meta approach.
+- **Meta approach** (code-block): `module-3-spec-driven-development/meta-approach/code-blocks/en/02-a-hook-via-a-meta-prompt.txt` - EN copyable text block from Meta approach.
+- **Deferred context disclosure** (mermaid): `module-3-spec-driven-development/deferred-context-disclosure/code-blocks/en/01-the-honest-boundary-this-is-a-monkey-patch.mmd` - EN copyable mermaid block from Deferred context disclosure.
+- **Moral principles as invariants** (mermaid): `module-3-spec-driven-development/moral-principles-as-invariants/code-blocks/en/01-an-invariant-at-the-level-of-the-agent.mmd` - EN copyable mermaid block from Moral principles as invariants.
+- **Moral principles as invariants** (code-block): `module-3-spec-driven-development/moral-principles-as-invariants/code-blocks/en/02-how-this-looks-in-agents.md.md` - EN copyable markdown block from Moral principles as invariants.
+- **Spec-anchored, comparison pass** (mermaid): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/en/01-three-documents-requirements-design-tasks.mmd` - EN copyable mermaid block from Spec-anchored, comparison pass.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/en/02-tasks.md-in-what-order.js` - EN copyable javascript block from Spec-anchored, comparison pass.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/en/03-requirements.md-excerpt.md` - EN copyable markdown block from Spec-anchored, comparison pass.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/en/04-design.md-excerpt.md` - EN copyable markdown block from Spec-anchored, comparison pass.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/en/05-tasks.md-excerpt.md` - EN copyable markdown block from Spec-anchored, comparison pass.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/en/06-self-eval-in-action.txt` - EN copyable text block from Spec-anchored, comparison pass.
+- **GitHub Spec Kit** (mermaid): `module-3-spec-driven-development/github-spec-kit/code-blocks/en/01-mechanics-commands-as-the-primitive.mmd` - EN copyable mermaid block from GitHub Spec Kit.
+- **GitHub Spec Kit** (code-block): `module-3-spec-driven-development/github-spec-kit/code-blocks/en/02-5.-tasks-the-task-factory.txt` - EN copyable text block from GitHub Spec Kit.
+- **OpenSpec** (mermaid): `module-3-spec-driven-development/openspec/code-blocks/en/01-lifecycle-actions-available-at-any-moment.mmd` - EN copyable mermaid block from OpenSpec.
+- **Kiro** (mermaid): `module-3-spec-driven-development/kiro/code-blocks/en/01-the-requirements-design-tasks-trinity-and-phase-gates.mmd` - EN copyable mermaid block from Kiro.
+- **Kiro** (code-block): `module-3-spec-driven-development/kiro/code-blocks/en/02-types-of-specifications-and-pass-variants.txt` - EN copyable text block from Kiro.
+- **Kiro** (code-block): `module-3-spec-driven-development/kiro/code-blocks/en/03-ears-notation-requirements-in-a-checkable-form.txt` - EN copyable text block from Kiro.
+- **Kiro** (code-block): `module-3-spec-driven-development/kiro/code-blocks/en/04-4.-tasks-and-execution-in-waves.txt` - EN copyable text block from Kiro.
+- **specs.md** (mermaid): `module-3-spec-driven-development/specs.md/code-blocks/en/01-one-installation-three-swappable-flows.mmd` - EN copyable mermaid block from specs.md.
+- **specs.md** (code-block): `module-3-spec-driven-development/specs.md/code-blocks/en/02-simple-spec-generation-unit-feature.txt` - EN copyable text block from specs.md.
+- **specs.md** (mermaid): `module-3-spec-driven-development/specs.md/code-blocks/en/03-ai-dlc-full-lifecycle-unit-intent-unit-story-bolt.mmd` - EN copyable mermaid block from specs.md.
+- **specs.md** (code-block): `module-3-spec-driven-development/specs.md/code-blocks/en/04-ai-dlc-full-lifecycle-unit-intent-unit-story-bolt.txt` - EN copyable text block from specs.md.
+- **superpowers** (mermaid): `module-3-spec-driven-development/superpowers/code-blocks/en/01-the-base-cycle-of-seven-skills.mmd` - EN copyable mermaid block from superpowers.
+- **superpowers** (code-block): `module-3-spec-driven-development/superpowers/code-blocks/en/02-how-it-looks-on-the-example-of-the-query-api-over-the-audit-log.txt` - EN copyable text block from superpowers.
+- **Deterministic spec stages** (mermaid): `module-3-spec-driven-development/deterministic-spec-stages/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Паттерн 4. Спецификации из X последовательных файлов (детерминированные стадии).
+- **Deterministic spec stages** (code-block): `module-3-spec-driven-development/deterministic-spec-stages/code-blocks/ru/02-artifact.txt` - RU copyable text block from Паттерн 4. Спецификации из X последовательных файлов (детерминированные стадии).
+- **Agent loops / harness engineering** (mermaid): `module-3-spec-driven-development/agent-loops-harness-engineering/code-blocks/ru/01-goal-context.mmd` - RU copyable mermaid block from Паттерн 5. Agent Loops / Harness Engineering.
+- **Spec self and auto evals** (code-block): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/ru/01-artifact.md` - RU copyable markdown block from Паттерн 6. Spec self/auto-evals (чек-лист + прогон агентом).
+- **Spec self and auto evals** (code-block): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/ru/02-artifact.txt` - RU copyable text block from Паттерн 6. Spec self/auto-evals (чек-лист + прогон агентом).
+- **Spec self and auto evals** (code-block): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/ru/03-artifact.txt` - RU copyable text block from Паттерн 6. Spec self/auto-evals (чек-лист + прогон агентом).
+- **Spec self and auto evals** (mermaid): `module-3-spec-driven-development/spec-self-and-auto-evals/code-blocks/ru/04-artifact.mmd` - RU copyable mermaid block from Паттерн 6. Spec self/auto-evals (чек-лист + прогон агентом).
+- **Hooks: lifecycle vs git-style** (mermaid): `module-3-spec-driven-development/hooks-lifecycle-vs-git-style/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Паттерн 7. Hooks: lifecycle vs git-style.
+- **Hooks: lifecycle vs git-style** (code-block): `module-3-spec-driven-development/hooks-lifecycle-vs-git-style/code-blocks/ru/02-hook.txt` - RU copyable text block from Паттерн 7. Hooks: lifecycle vs git-style.
+- **Hooks: lifecycle vs git-style** (code-block): `module-3-spec-driven-development/hooks-lifecycle-vs-git-style/code-blocks/ru/03-artifact.txt` - RU copyable text block from Паттерн 7. Hooks: lifecycle vs git-style.
+- **CI/CD as loss function** (mermaid): `module-3-spec-driven-development/cicd-as-loss-function/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Урок 11. CI/CD как loss function.
+- **Reusable workflow** (code-block): `module-3-spec-driven-development/reusable-workflow/code-blocks/ru/01-artifact.txt` - RU copyable text block from Паттерн 8. Переиспользуемый workflow.
+- **Reusable workflow** (code-block): `module-3-spec-driven-development/reusable-workflow/code-blocks/ru/02-artifact.txt` - RU copyable text block from Паттерн 8. Переиспользуемый workflow.
+- **Reusable workflow** (mermaid): `module-3-spec-driven-development/reusable-workflow/code-blocks/ru/03-artifact.mmd` - RU copyable mermaid block from Паттерн 8. Переиспользуемый workflow.
+- **Shared artifacts** (code-block): `module-3-spec-driven-development/shared-artifacts/code-blocks/ru/01-artifact.txt` - RU copyable text block from Паттерн 9. Shared artifacts.
+- **Shared artifacts** (mermaid): `module-3-spec-driven-development/shared-artifacts/code-blocks/ru/02-artifact.mmd` - RU copyable mermaid block from Паттерн 9. Shared artifacts.
+- **Meta approach** (code-block): `module-3-spec-driven-development/meta-approach/code-blocks/ru/01-artifact.txt` - RU copyable text block from Паттерн 12. Мета-подход.
+- **Meta approach** (code-block): `module-3-spec-driven-development/meta-approach/code-blocks/ru/02-artifact.txt` - RU copyable text block from Паттерн 12. Мета-подход.
+- **Deferred context disclosure** (mermaid): `module-3-spec-driven-development/deferred-context-disclosure/code-blocks/ru/01-monkey-patch.mmd` - RU copyable mermaid block from Паттерн 13. Deferred context disclosure.
+- **Moral principles as invariants** (mermaid): `module-3-spec-driven-development/moral-principles-as-invariants/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Урок 12. Моральные принципы как инварианты.
+- **Moral principles as invariants** (code-block): `module-3-spec-driven-development/moral-principles-as-invariants/code-blocks/ru/02-agents.md.md` - RU copyable markdown block from Урок 12. Моральные принципы как инварианты.
+- **Spec-anchored, comparison pass** (mermaid): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/ru/01-requirements-design-tasks.mmd` - RU copyable mermaid block from Методология 1. Spec-anchored как основа сравнения.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/ru/02-tasks.md.js` - RU copyable javascript block from Методология 1. Spec-anchored как основа сравнения.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/ru/03-requirements.md.md` - RU copyable markdown block from Методология 1. Spec-anchored как основа сравнения.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/ru/04-design.md.md` - RU copyable markdown block from Методология 1. Spec-anchored как основа сравнения.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/ru/05-tasks.md.md` - RU copyable markdown block from Методология 1. Spec-anchored как основа сравнения.
+- **Spec-anchored, comparison pass** (code-block): `module-3-spec-driven-development/spec-anchored-comparison-pass/code-blocks/ru/06-self-eval.txt` - RU copyable text block from Методология 1. Spec-anchored как основа сравнения.
+- **GitHub Spec Kit** (mermaid): `module-3-spec-driven-development/github-spec-kit/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Методология 2. GitHub Spec Kit.
+- **GitHub Spec Kit** (code-block): `module-3-spec-driven-development/github-spec-kit/code-blocks/ru/02-5.-tasks.txt` - RU copyable text block from Методология 2. GitHub Spec Kit.
+- **OpenSpec** (mermaid): `module-3-spec-driven-development/openspec/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Методология 3. OpenSpec.
+- **Kiro** (mermaid): `module-3-spec-driven-development/kiro/code-blocks/ru/01-trinity-requirements-design-tasks.mmd` - RU copyable mermaid block from Методология 4. Kiro (AWS).
+- **Kiro** (code-block): `module-3-spec-driven-development/kiro/code-blocks/ru/02-artifact.txt` - RU copyable text block from Методология 4. Kiro (AWS).
+- **Kiro** (code-block): `module-3-spec-driven-development/kiro/code-blocks/ru/03-ears.txt` - RU copyable text block from Методология 4. Kiro (AWS).
+- **Kiro** (code-block): `module-3-spec-driven-development/kiro/code-blocks/ru/04-4..txt` - RU copyable text block from Методология 4. Kiro (AWS).
+- **specs.md** (mermaid): `module-3-spec-driven-development/specs.md/code-blocks/ru/01-flow.mmd` - RU copyable mermaid block from Методология 5. specs.md.
+- **specs.md** (code-block): `module-3-spec-driven-development/specs.md/code-blocks/ru/02-simple.txt` - RU copyable text block from Методология 5. specs.md.
+- **specs.md** (mermaid): `module-3-spec-driven-development/specs.md/code-blocks/ru/03-ai-dlc-intent-unit-story-bolt.mmd` - RU copyable mermaid block from Методология 5. specs.md.
+- **specs.md** (code-block): `module-3-spec-driven-development/specs.md/code-blocks/ru/04-ai-dlc-intent-unit-story-bolt.txt` - RU copyable text block from Методология 5. specs.md.
+- **superpowers** (mermaid): `module-3-spec-driven-development/superpowers/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Методология 6. superpowers.
+- **superpowers** (code-block): `module-3-spec-driven-development/superpowers/code-blocks/ru/02-query-api.txt` - RU copyable text block from Методология 6. superpowers.
+
+## Module 4
+
+- **Architecture tests** (java): `module-4-agent-team-scale/architecture-tests/LayerBoundaryArchUnitTest.java` - Architecture test that turns package boundary rules into executable checks.
+- **Quality gates** (java): `module-4-agent-team-scale/quality-gates/AuditEventEndpointIntegrationTest.java` - Integration test example used as a quality gate for a generated endpoint.
+- **Quality gates** (gradle): `module-4-agent-team-scale/quality-gates/build.gradle.kts` - Gradle configuration for the quality-gated endpoint example.
+- **Module folder guide** (README): `module-4-agent-team-scale/README.md` - Short orientation for Module 4: Agent Team And Scale.
+- **Multi-agent mode** (mermaid): `module-4-agent-team-scale/multi-agent-mode/code-blocks/en/01-between-the-idea-and-the-product-there-is-always-an-organization.mmd` - EN copyable mermaid block from Multi-agent mode.
+- **Metrics and the real bottleneck** (mermaid): `module-4-agent-team-scale/metrics-and-the-real-bottleneck/code-blocks/en/01-why-at-scale-you-cant-do-without-metrics.mmd` - EN copyable mermaid block from Metrics and the real bottleneck.
+- **Version Every Thing** (code-block): `module-4-agent-team-scale/version-every-thing/code-blocks/en/01-attach-the-set-of-versions-to-a-specific-run.yml` - EN copyable yaml block from Version Every Thing.
+- **Version Every Thing** (mermaid): `module-4-agent-team-scale/version-every-thing/code-blocks/en/02-change-one-variable-and-take-measurements.mmd` - EN copyable mermaid block from Version Every Thing.
+- **Quality gates and blast-radius control** (mermaid): `module-4-agent-team-scale/quality-gates-and-blast-radius-control/code-blocks/en/01-2.-assemble-the-same-chain-of-checks-locally-in-the-pr-and-in-ci.mmd` - EN copyable mermaid block from Quality gates and blast-radius control.
+- **Architectural tests** (mermaid): `module-4-agent-team-scale/architectural-tests/code-blocks/en/01-1.-first-state-the-boundary-in-a-form-that-can-be-checked.mmd` - EN copyable mermaid block from Architectural tests.
+- **Architectural tests** (code-block): `module-4-agent-team-scale/architectural-tests/code-blocks/en/02-2.-turn-the-boundary-into-a-test-right-away.java` - EN copyable java block from Architectural tests.
+- **Architectural tests** (code-block): `module-4-agent-team-scale/architectural-tests/code-blocks/en/03-2.-turn-the-boundary-into-a-test-right-away.java` - EN copyable java block from Architectural tests.
+- **Architectural tests** (code-block): `module-4-agent-team-scale/architectural-tests/code-blocks/en/04-3.-install-the-sensor-before-implementing-the-feature-itself.txt` - EN copyable text block from Architectural tests.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/en/01-2.-give-each-subagent-a-separate-checkout.sh` - EN copyable bash block from Git worktrees and parallel subagents.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/en/02-2.-give-each-subagent-a-separate-checkout.txt` - EN copyable text block from Git worktrees and parallel subagents.
+- **Git worktrees and parallel subagents** (mermaid): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/en/03-2.-give-each-subagent-a-separate-checkout.mmd` - EN copyable mermaid block from Git worktrees and parallel subagents.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/en/04-3.-launch-the-subagent-on-a-specific-task.txt` - EN copyable text block from Git worktrees and parallel subagents.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/en/05-5.-merge-changes-back-through-the-same-checks.sh` - EN copyable bash block from Git worktrees and parallel subagents.
+- **Branch-and-merge orchestration** (code-block): `module-4-agent-team-scale/branch-and-merge-orchestration/code-blocks/en/01-1.-first-fix-the-unit-of-coordination.json` - EN copyable json block from Branch-and-merge orchestration.
+- **Branch-and-merge orchestration** (mermaid): `module-4-agent-team-scale/branch-and-merge-orchestration/code-blocks/en/02-2.-next-assemble-a-dependency-graph-from-the-tasks.mmd` - EN copyable mermaid block from Branch-and-merge orchestration.
+- **Hierarchical agent teams with shared memory** (mermaid): `module-4-agent-team-scale/hierarchical-agent-teams-with-shared-memory/code-blocks/en/01-5.-separate-brain-hands-session.mmd` - EN copyable mermaid block from Hierarchical agent teams with shared memory.
+- **Hierarchical agent teams with shared memory** (code-block): `module-4-agent-team-scale/hierarchical-agent-teams-with-shared-memory/code-blocks/en/02-9.-the-handoff-as-a-separate-artifact-the-reset-as-a-normal-mode.json` - EN copyable json block from Hierarchical agent teams with shared memory.
+- **Hierarchical agent teams with shared memory** (code-block): `module-4-agent-team-scale/hierarchical-agent-teams-with-shared-memory/code-blocks/en/03-10.-our-audit-log-example-over-several-days-of-work.txt` - EN copyable text block from Hierarchical agent teams with shared memory.
+- **Swarms and orchestration** (code-block): `module-4-agent-team-scale/swarms-and-orchestration/code-blocks/en/01-4.-orchestration-relies-on-events-and-contracts.json` - EN copyable json block from Swarms and orchestration.
+- **Swarms and orchestration** (mermaid): `module-4-agent-team-scale/swarms-and-orchestration/code-blocks/en/02-6.-so-the-swarm-needs-a-control-loop.mmd` - EN copyable mermaid block from Swarms and orchestration.
+- **Swarms and orchestration** (code-block): `module-4-agent-team-scale/swarms-and-orchestration/code-blocks/en/03-7.-what-this-looks-like-in-the-audit-log-example.txt` - EN copyable text block from Swarms and orchestration.
+- **Agent-human separation of responsibilities** (code-block): `module-4-agent-team-scale/agent-human-separation-of-responsibilities/code-blocks/en/01-2.-the-first-stage-is-done-by-the-review-bot.txt` - EN copyable text block from Agent-human separation of responsibilities.
+- **Agent-human separation of responsibilities** (mermaid): `module-4-agent-team-scale/agent-human-separation-of-responsibilities/code-blocks/en/02-5.-where-this-pattern-has-its-limit.mmd` - EN copyable mermaid block from Agent-human separation of responsibilities.
+- **Aspect Oriented Programming proxy** (code-block): `module-4-agent-team-scale/aspect-oriented-programming-proxy/code-blocks/en/01-4.-the-second-path-api-layer-proxy.txt` - EN copyable text block from Aspect Oriented Programming proxy.
+- **Reproducibility unit plus audit trail** (code-block): `module-4-agent-team-scale/reproducibility-unit-plus-audit-trail/code-blocks/en/01-2.-attach-the-configuration-manifest-to-a-specific-run.yml` - EN copyable yaml block from Reproducibility unit plus audit trail.
+- **Reproducibility unit plus audit trail** (mermaid): `module-4-agent-team-scale/reproducibility-unit-plus-audit-trail/code-blocks/en/02-2.-attach-the-configuration-manifest-to-a-specific-run.mmd` - EN copyable mermaid block from Reproducibility unit plus audit trail.
+- **Reproducibility unit plus audit trail** (code-block): `module-4-agent-team-scale/reproducibility-unit-plus-audit-trail/code-blocks/en/03-3.-keep-the-action-log-as-a-structured-trail-of-the-solution.yml` - EN copyable yaml block from Reproducibility unit plus audit trail.
+- **Tessl** (code-block): `module-4-agent-team-scale/tessl/code-blocks/en/01-the-unit-of-work-tile.txt` - EN copyable text block from Tessl.
+- **Tessl** (code-block): `module-4-agent-team-scale/tessl/code-blocks/en/02-the-unit-of-work-tile.txt` - EN copyable text block from Tessl.
+- **Tessl** (code-block): `module-4-agent-team-scale/tessl/code-blocks/en/03-step-2.-i-extract-the-context-package.txt` - EN copyable text block from Tessl.
+- **Augment Cosmos** (mermaid): `module-4-agent-team-scale/augment-cosmos/code-blocks/en/01-unit-of-work-automation-for-the-organization-session-for-a-single-run.mmd` - EN copyable mermaid block from Augment Cosmos.
+- **Augment Cosmos** (mermaid): `module-4-agent-team-scale/augment-cosmos/code-blocks/en/02-scenario-jira-ticket-reviewed-pr-for-improving-audit-log-service.mmd` - EN copyable mermaid block from Augment Cosmos.
+- **AI-DLC** (code-block): `module-4-agent-team-scale/ai-dlc/code-blocks/en/01-what-is-considered-the-fundamental-entity-here.txt` - EN copyable text block from AI-DLC.
+- **AI-DLC** (code-block): `module-4-agent-team-scale/ai-dlc/code-blocks/en/02-awss-ai-dlc-first-a-methodology-then-a-tool.txt` - EN copyable text block from AI-DLC.
+- **Multi-agent mode** (mermaid): `module-4-agent-team-scale/multi-agent-mode/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Урок 13. Мультиагентный режим.
+- **Metrics and the real bottleneck** (mermaid): `module-4-agent-team-scale/metrics-and-the-real-bottleneck/code-blocks/ru/01-artifact.mmd` - RU copyable mermaid block from Урок 14. Метрики и где настоящий bottleneck.
+- **Version Every Thing** (code-block): `module-4-agent-team-scale/version-every-thing/code-blocks/ru/01-artifact.yml` - RU copyable yaml block from Паттерн 14. Version Every Thing (VET).
+- **Version Every Thing** (mermaid): `module-4-agent-team-scale/version-every-thing/code-blocks/ru/02-artifact.mmd` - RU copyable mermaid block from Паттерн 14. Version Every Thing (VET).
+- **Quality gates and blast-radius control** (mermaid): `module-4-agent-team-scale/quality-gates-and-blast-radius-control/code-blocks/ru/01-2.-pr-ci.mmd` - RU copyable mermaid block from Паттерн 15. Quality gates и blast-radius control.
+- **Architectural tests** (mermaid): `module-4-agent-team-scale/architectural-tests/code-blocks/ru/01-1..mmd` - RU copyable mermaid block from Паттерн 16. Архитектурные тесты.
+- **Architectural tests** (code-block): `module-4-agent-team-scale/architectural-tests/code-blocks/ru/02-2..java` - RU copyable java block from Паттерн 16. Архитектурные тесты.
+- **Architectural tests** (code-block): `module-4-agent-team-scale/architectural-tests/code-blocks/ru/03-2..java` - RU copyable java block from Паттерн 16. Архитектурные тесты.
+- **Architectural tests** (code-block): `module-4-agent-team-scale/architectural-tests/code-blocks/ru/04-3..txt` - RU copyable text block from Паттерн 16. Архитектурные тесты.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/ru/01-2.-checkout.sh` - RU copyable bash block from Паттерн 17. Git worktrees / параллельные субагенты.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/ru/02-2.-checkout.txt` - RU copyable text block from Паттерн 17. Git worktrees / параллельные субагенты.
+- **Git worktrees and parallel subagents** (mermaid): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/ru/03-2.-checkout.mmd` - RU copyable mermaid block from Паттерн 17. Git worktrees / параллельные субагенты.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/ru/04-3..txt` - RU copyable text block from Паттерн 17. Git worktrees / параллельные субагенты.
+- **Git worktrees and parallel subagents** (code-block): `module-4-agent-team-scale/git-worktrees-and-parallel-subagents/code-blocks/ru/05-5..sh` - RU copyable bash block from Паттерн 17. Git worktrees / параллельные субагенты.
+- **Branch-and-merge orchestration** (code-block): `module-4-agent-team-scale/branch-and-merge-orchestration/code-blocks/ru/01-1..json` - RU copyable json block from Паттерн 18. Branch-and-merge оркестрация.
+- **Branch-and-merge orchestration** (mermaid): `module-4-agent-team-scale/branch-and-merge-orchestration/code-blocks/ru/02-2..mmd` - RU copyable mermaid block from Паттерн 18. Branch-and-merge оркестрация.
+- **Hierarchical agent teams with shared memory** (mermaid): `module-4-agent-team-scale/hierarchical-agent-teams-with-shared-memory/code-blocks/ru/01-5.-brain-hands-session.mmd` - RU copyable mermaid block from Паттерн 19. Иерархические команды агентов с общей памятью.
+- **Hierarchical agent teams with shared memory** (code-block): `module-4-agent-team-scale/hierarchical-agent-teams-with-shared-memory/code-blocks/ru/02-9..json` - RU copyable json block from Паттерн 19. Иерархические команды агентов с общей памятью.
+- **Hierarchical agent teams with shared memory** (code-block): `module-4-agent-team-scale/hierarchical-agent-teams-with-shared-memory/code-blocks/ru/03-10.-audit-log.txt` - RU copyable text block from Паттерн 19. Иерархические команды агентов с общей памятью.
+- **Swarms and orchestration** (code-block): `module-4-agent-team-scale/swarms-and-orchestration/code-blocks/ru/01-4..json` - RU copyable json block from Паттерн 20. Swarms и оркестрация.
+- **Swarms and orchestration** (mermaid): `module-4-agent-team-scale/swarms-and-orchestration/code-blocks/ru/02-6..mmd` - RU copyable mermaid block from Паттерн 20. Swarms и оркестрация.
+- **Swarms and orchestration** (code-block): `module-4-agent-team-scale/swarms-and-orchestration/code-blocks/ru/03-7.-audit-log.txt` - RU copyable text block from Паттерн 20. Swarms и оркестрация.
+- **Agent-human separation of responsibilities** (code-block): `module-4-agent-team-scale/agent-human-separation-of-responsibilities/code-blocks/ru/01-2..txt` - RU copyable text block from Паттерн 21. Agent-Human separation of responsibilities (HITL).
+- **Agent-human separation of responsibilities** (mermaid): `module-4-agent-team-scale/agent-human-separation-of-responsibilities/code-blocks/ru/02-5..mmd` - RU copyable mermaid block from Паттерн 21. Agent-Human separation of responsibilities (HITL).
+- **Aspect Oriented Programming proxy** (code-block): `module-4-agent-team-scale/aspect-oriented-programming-proxy/code-blocks/ru/01-4.-api-layer-proxy.txt` - RU copyable text block from Паттерн 22. Aspect Oriented Programming (AOP).
+- **Reproducibility unit plus audit trail** (code-block): `module-4-agent-team-scale/reproducibility-unit-plus-audit-trail/code-blocks/ru/01-2..yml` - RU copyable yaml block from Паттерн 23. Reproducibility unit + audit trail.
+- **Reproducibility unit plus audit trail** (mermaid): `module-4-agent-team-scale/reproducibility-unit-plus-audit-trail/code-blocks/ru/02-2..mmd` - RU copyable mermaid block from Паттерн 23. Reproducibility unit + audit trail.
+- **Reproducibility unit plus audit trail** (code-block): `module-4-agent-team-scale/reproducibility-unit-plus-audit-trail/code-blocks/ru/03-3..yml` - RU copyable yaml block from Паттерн 23. Reproducibility unit + audit trail.
+- **Tessl** (code-block): `module-4-agent-team-scale/tessl/code-blocks/ru/01-tile.txt` - RU copyable text block from Методология 7. Tessl.
+- **Tessl** (code-block): `module-4-agent-team-scale/tessl/code-blocks/ru/02-tile.txt` - RU copyable text block from Методология 7. Tessl.
+- **Tessl** (code-block): `module-4-agent-team-scale/tessl/code-blocks/ru/03-2..txt` - RU copyable text block from Методология 7. Tessl.
+- **Augment Cosmos** (mermaid): `module-4-agent-team-scale/augment-cosmos/code-blocks/ru/01-automation-session.mmd` - RU copyable mermaid block from Методология 9. Augment Cosmos.
+- **Augment Cosmos** (mermaid): `module-4-agent-team-scale/augment-cosmos/code-blocks/ru/02-jira-pr-audit-log-service.mmd` - RU copyable mermaid block from Методология 9. Augment Cosmos.
+- **AI-DLC** (code-block): `module-4-agent-team-scale/ai-dlc/code-blocks/ru/01-artifact.txt` - RU copyable text block from Методология 10. AI-DLC.
+- **AI-DLC** (code-block): `module-4-agent-team-scale/ai-dlc/code-blocks/ru/02-ai-dlc-aws.txt` - RU copyable text block from Методология 10. AI-DLC.
+
+## Module 5
+
+- **Adoption follow-up** (homework): `module-5-organization-adoption/follow-up/homework.md` - Homework/checklist for continuing adoption work after the session.
+- **Adoption follow-up** (rubric): `module-5-organization-adoption/follow-up/rubric-delta.md` - Before/after rubric delta for adoption progress.
+- **Module folder guide** (README): `module-5-organization-adoption/README.md` - Short orientation for Module 5: Organization Adoption.
+- **AI Champions** (code-block): `module-5-organization-adoption/ai-champions/code-blocks/en/01-2.-i-limit-the-role-by-time-and-by-scale.txt` - EN copyable text block from AI Champions.
+- **AI Champions** (mermaid): `module-5-organization-adoption/ai-champions/code-blocks/en/02-4.-recurring-wins-are-saved-into-the-repository-right-away.mmd` - EN copyable mermaid block from AI Champions.
+- **Adoption Ladders** (mermaid): `module-5-organization-adoption/adoption-ladders/code-blocks/en/01-5.-i-deal-with-the-usual-problems.mmd` - EN copyable mermaid block from Adoption Ladders.
+- **AI Champions** (code-block): `module-5-organization-adoption/ai-champions/code-blocks/ru/01-2..txt` - RU copyable text block from Паттерн 24. AI Champions.
+- **AI Champions** (mermaid): `module-5-organization-adoption/ai-champions/code-blocks/ru/02-4..mmd` - RU copyable mermaid block from Паттерн 24. AI Champions.
+- **Adoption Ladders** (mermaid): `module-5-organization-adoption/adoption-ladders/code-blocks/ru/01-5..mmd` - RU copyable mermaid block from Паттерн 25. Adoption Ladders.

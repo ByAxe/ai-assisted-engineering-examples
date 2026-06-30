@@ -1,0 +1,17 @@
+flowchart TB
+    subgraph Min["Минимум — 4 элемента"]
+        A["Context"]
+        B["Constraints"]
+        C["Minimum expected changes"]
+        D["Verification"]
+    end
+    subgraph Full["Полный контракт — 7 элементов"]
+        P["Problem"]
+        A2["Context"]
+        B2["Constraints"]
+        C2["Minimum expected changes"]
+        V2["Verification method"]
+        I2["Integration with existing code"]
+        PR2["Principles"]
+    end
+    Min -->|"растёт под крупные и долгие задачи"| Full

@@ -1,0 +1,9 @@
+flowchart TB
+    A["Agent opens a PR"] --> B["CI: tests, lints,<br/>security, architecture checks"]
+    B --> C["First stage:<br/>review bot"]
+    C --> D["Agent processes the remarks,<br/>replies and closes threads"]
+    D --> E{"Checkpoint:<br/>CI green,<br/>threads closed"}
+    E --> F["Second stage:<br/>human"]
+    F --> G["Approve / merge"]
+    E -- fail --> D
+    F -- risk remained --> D

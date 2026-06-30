@@ -1,0 +1,9 @@
+flowchart TD
+    JiraStatus["Jira status change"] -->|wakes| PRAuthor["PR Author"]
+    PRAuthor -->|starts| Session["Session in the audit-platform environment"]
+    Session -->|reads| Inputs["ticket + local specification + repository context + Files/Skills"]
+    Session -->|opens| Branch["branch + PR"]
+    Branch -->|routes| RiskAnalyzer["PR Risk Analyzer"]
+    RiskAnalyzer --> Review["Deep Review / Pair Reviewer / manual control"]
+    Review -->|saves| Artifacts["Artifacts: PR + branch + link to the task"]
+    Artifacts -->|distillation| Knowledge["reusable knowledge about the repository"]

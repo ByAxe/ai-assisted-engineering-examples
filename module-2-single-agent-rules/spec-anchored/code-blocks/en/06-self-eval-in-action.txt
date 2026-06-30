@@ -1,0 +1,5 @@
+[PASS] AC-1.1: valid actor + range -> 200, sorted by recordedAt DESC, id DESC — explicit input -> output
+[PASS] Pagination: keyset on (recordedAt, id), offset rejected with rationale
+[PASS] Empty filter set -> 400: the rule is in both requirements.md and design.md
+[PASS] Cursor format settled (opaque signed cursor), Open questions empty
+[PASS] tasks.md: T1–T6 have refs and DoD, dependencies set

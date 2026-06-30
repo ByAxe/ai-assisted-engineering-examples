@@ -1,0 +1,19 @@
+aidlc-docs/
+├── aidlc-state.md
+├── audit.md
+├── inception/
+│   ├── plans/
+│   ├── reverse-engineering/          # only for brownfield
+│   ├── requirements/
+│   ├── user-stories/
+│   └── application-design/
+├── construction/
+│   ├── plans/
+│   ├── <unit-name>/
+│   │   ├── functional-design/
+│   │   ├── nfr-requirements/
+│   │   ├── nfr-design/
+│   │   ├── infrastructure-design/
+│   │   └── code/
+│   └── build-and-test/
+└── operations/                       # in the current open-source rules this is still a stub

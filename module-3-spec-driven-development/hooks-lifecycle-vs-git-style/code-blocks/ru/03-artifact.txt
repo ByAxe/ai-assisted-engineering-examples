@@ -1,0 +1,5 @@
+> list current user stories from requirements.md
+agent: US-1 compliance officer; US-2 SRE; US-3 security analyst.
+---
+hook: Spec has FAIL items: Out of scope section is missing.
+      Fix the spec before stopping.

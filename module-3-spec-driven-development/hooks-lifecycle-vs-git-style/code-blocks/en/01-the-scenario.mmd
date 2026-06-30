@@ -1,0 +1,9 @@
+flowchart TD
+	A["The agent edits files in .specs/feature/"] --> B["The agent finishes the answer and tries to close the turn"]
+	B --> C["The Stop hook fires"]
+	C --> D["The hook runs the self-eval skill on the touched folder"]
+	D --> E{"Are there FAIL items in the report?"}
+	E -->|"yes"| F["Turn completion is blocked, the agent receives the list of failures"]
+	F --> G["The agent fixes the spec"]
+	G --> B
+	E -->|"no"| H["Turn closed, control with the human"]

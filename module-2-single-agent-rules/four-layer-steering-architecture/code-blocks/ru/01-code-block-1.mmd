@@ -1,0 +1,8 @@
+flowchart TB
+	L1["Слой 1 — Инварианты команды<br/>AGENTS.md / CLAUDE.md"]
+	L2["Слой 2 — Спецификации<br/>.specs/feature/requirements, design, tasks"]
+	L3["Слой 3 — Skills и плагины<br/>в репозитории, progressive disclosure"]
+	L4["Слой 4 — Hooks и мета-агенты<br/>lifecycle gates, AOP-style"]
+	MCP["MCP — мост во внешний мир<br/>Jira, GitHub, логи, базы"]
+	L1 --> L2 --> L3 --> L4
+	L4 -.-> MCP

@@ -1,0 +1,6 @@
+Субагент: export-query
+worktree: ../audit-export-query
+цель: добавить фильтры по date / action / user в read-only Query API
+не трогать: CSV export flow, RBAC policy, redaction logic, write path
+проверки: unit tests query package + архитектурный тест на read-only path
+результат: commit или PR + короткое summary, что изменено и какие решения приняты

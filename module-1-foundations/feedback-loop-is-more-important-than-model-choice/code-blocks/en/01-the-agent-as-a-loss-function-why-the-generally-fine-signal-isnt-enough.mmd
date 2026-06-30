@@ -1,0 +1,6 @@
+flowchart TB
+    P["Task + definition of done"] --> W["The agent writes code"]
+    W --> T["Runs tests, looks at CI, checks the result"]
+    T -->|doesn't converge| W
+    T -->|met the criterion| D["Stop: task closed"]
+    W -.->|without verification| F["fire and forget:<br/>generated and forgot"]

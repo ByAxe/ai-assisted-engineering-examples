@@ -1,0 +1,3 @@
+<project-root>/
+├── AGENTS.md                    # or .kiro/steering, .amazonq/rules, .cursor/rules, etc.
+└── .aidlc-rule-details/

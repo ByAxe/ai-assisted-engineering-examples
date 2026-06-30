@@ -1,0 +1,6 @@
+flowchart TD
+    A["query model + filters"] --> B["Query API endpoint"]
+    A --> C["CSV export"]
+    B --> D["RBAC + PII redaction"]
+    C --> D
+    D --> E["integration tests + final review"]

@@ -1,0 +1,5 @@
+flowchart TB
+    A["Artifact broken in by the author"] -->|"pull request"| B["Artifact in review"]
+    B -->|"review by champion or expert"| C["Artifact in main"]
+    C -->|"opening the repository"| D["The same baseline for everyone"]
+    D -->|"edits via a new pull request"| B

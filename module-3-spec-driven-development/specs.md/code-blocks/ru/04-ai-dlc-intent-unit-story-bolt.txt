@@ -1,0 +1,12 @@
+memory-bank/
+├── intents/
+│   └── {intent-id}/
+│       ├── requirements.md
+│       ├── system-context.md
+│       └── units/
+├── bolts/
+├── standards/
+│   ├── tech-stack.md
+│   ├── coding-standards.md
+│   └── system-architecture.md
+└── operations/

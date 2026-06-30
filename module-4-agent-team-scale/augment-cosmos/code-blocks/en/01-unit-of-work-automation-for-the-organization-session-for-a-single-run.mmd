@@ -1,0 +1,8 @@
+flowchart TD
+    Trigger -->|launches| Automation
+    Automation -->|wakes| Expert
+    Expert -->|works in| Environment
+    Expert -->|uses| Capabilities
+    Expert -->|reads and writes| Files
+    Expert -->|creates| Artifacts
+    Expert -->|escalates when needed| HumanGate["Human Gate"]

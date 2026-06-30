@@ -1,0 +1,10 @@
+.kiro/specs/query-api/
+├── requirements.md   # EARS acceptance criteria
+├── design.md         # contract, keyset pagination, indexes
+└── tasks.md          # trackable tasks T1..T6
+
+Run all Tasks -> dependency waves:
+  Wave 1 (parallel): T1 indexes · T2 query value object · T3 cursor codec
+  Wave 2:            T4 repository keyset search   (needs T1, T2, T3)
+  Wave 3:            T5 controller + error mapping (needs T4)
+  Wave 4:            T6 steering note: read-only    (needs T5)

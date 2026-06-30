@@ -1,0 +1,6 @@
+flowchart TB
+    A["Fixed start<br/>ветка / спека / done-condition"] --> B["Новый run<br/>Goal + узкий context"]
+    B --> C["Одна подзадача"]
+    C --> D["Внешняя проверка<br/>test / sensor / CI / reviewer"]
+    D --> E["Fixed committed end-state<br/>commit / PR / MR / обновлённый артефакт"]
+    E --> F["Следующий run"]

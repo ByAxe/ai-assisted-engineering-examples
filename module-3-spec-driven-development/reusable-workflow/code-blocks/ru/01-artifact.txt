@@ -1,0 +1,5 @@
+skills/spec-self-eval/
+├── SKILL.md        # YAML frontmatter (name, description) + инструкции
+├── references/     # документы, которые агент подгружает по требованию
+├── scripts/        # исполняемые хелперы (опционально)
+└── assets/         # шаблоны и примеры выходов (опционально)

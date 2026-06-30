@@ -1,0 +1,6 @@
+flowchart TB
+    A["Fixed start<br/>branch / spec / done-condition"] --> B["New run<br/>Goal + narrow context"]
+    B --> C["One subtask"]
+    C --> D["External check<br/>test / sensor / CI / reviewer"]
+    D --> E["Fixed committed end-state<br/>commit / PR / MR / updated artifact"]
+    E --> F["Next run"]

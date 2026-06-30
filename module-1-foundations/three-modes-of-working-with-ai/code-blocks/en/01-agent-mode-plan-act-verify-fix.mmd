@@ -1,0 +1,5 @@
+flowchart TB
+    A["Chat<br/>question → answer"] --> B["Edit<br/>inline suggestions in the IDE"] --> C["Agent<br/>plan → act → verify → fix"]
+    A -.- a["context and transfer — by hand"]
+    B -.- b["author of the code — the developer"]
+    C -.- c["the agent plans and verifies itself"]

@@ -1,0 +1,12 @@
+flowchart TD
+    A["Operator / lead agent"] --> B["worktree: query"]
+    A --> C["worktree: csv"]
+    A --> D["worktree: rbac"]
+
+    B --> E["local checks"]
+    C --> F["local checks"]
+    D --> G["local checks"]
+
+    E --> H["separate diff / PR"]
+    F --> I["separate diff / PR"]
+    G --> J["separate diff / PR"]

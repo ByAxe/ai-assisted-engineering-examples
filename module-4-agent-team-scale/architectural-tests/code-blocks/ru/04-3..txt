@@ -1,0 +1,3 @@
+VIOLATION: query code must stay read-only.
+Remove the dependency on the append path and read events only through the read repository.
+If you think a write is needed here, stop: the query API never writes.

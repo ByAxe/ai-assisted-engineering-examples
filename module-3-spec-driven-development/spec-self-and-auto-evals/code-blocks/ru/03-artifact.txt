@@ -1,0 +1,8 @@
+## tasks.md
+- PASS — Each task has refs to requirements/design.
+- PASS — Each task has DoD.
+- WEAK — Task size: T4 (Repository.search) and T5 (controller) are at the edge of
+        a single PR — may need a split once first implementation reveals true volume.
+
+## Summary
+12 PASS, 0 FAIL, 1 WEAK. Spec is ready for plan mode on T1.

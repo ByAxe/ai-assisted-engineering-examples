@@ -1,0 +1,5 @@
+T1. Flyway: индексы под фильтры Query API
+T2. Value object запроса + правила валидации
+T3. Codec курсора (encode/decode + sign/verify, битый курсор)
+T4. Keyset-поиск в репозитории (пагинация)
+T5. Контроллер GET /api/v1/audit-events + маппинг ошибок

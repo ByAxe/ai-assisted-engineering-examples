@@ -1,0 +1,5 @@
+[PASS] AC-1.1: валидный actor + диапазон -> 200, сортировка по recordedAt DESC, id DESC — явный input -> output
+[PASS] Пагинация: keyset по (recordedAt, id), offset отклонён с обоснованием
+[PASS] Пустой набор фильтров -> 400: правило есть и в requirements.md, и в design.md
+[PASS] Формат курсора зафиксирован (opaque signed cursor), Open questions пуст
+[PASS] tasks.md: у T1–T6 есть refs и DoD, зависимости проставлены

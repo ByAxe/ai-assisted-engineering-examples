@@ -1,0 +1,3 @@
+Create a skill <name> that does X.
+Write the SKILL.md, put it under <repo>/.codex/skills/<name>/,
+mirror to <repo>/.claude/skills/<name>/.

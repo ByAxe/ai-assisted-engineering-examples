@@ -1,0 +1,4 @@
+Read `.specs/query-api/{requirements,design,tasks}.md`.
+Run the checklist from `.specs/_eval-checklist.md` against them.
+For each item: PASS / FAIL / WEAK with one-line reason.
+Do not modify files. Output as a markdown report I can paste into a PR.

@@ -1,0 +1,4 @@
+flowchart TB
+    A["Spec: requirements, design, tasks ready"] -->|"agent run-through against the checklist"| B["Report PASS / FAIL / WEAK"]
+    B -->|"there is a FAIL: edit the spec"| A
+    B -->|"no FAIL: move to the plan"| C["plan mode"]

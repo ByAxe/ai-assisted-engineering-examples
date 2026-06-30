@@ -1,0 +1,26 @@
+coordination/                       # operational state of the whole swarm (section 3)
+  queue/                            # queue of tasks and events, the carrier of orchestration (sections 3–4)
+    events.ndjson                   # event stream: tests passed, dependency closed, merge overflowed
+    runnable.json                   # what is ready to launch right now, and what is still blocked
+  sessions/                         # external session log (inherited from Pattern 19)
+    2026-06-19/
+    2026-06-20/                     # by day: recovery of work across session changes
+  handoffs/                         # structured handoff of work between agents (Pattern 19)
+    audit-query-api.json
+    audit-export-rbac.json          # transition contract: whom and from which state to launch
+  baselines/                        # baseline versions — what the agents start from (sections 3 and 5)
+    schema-v3.json                  # the fixed schema
+    redaction-policy-2026-06-19.md  # the fixed redaction policy
+  memory/                           # team memory with different TTLs (inherited from Pattern 19)
+    working/                        # working memory of the current phase
+    episodic/                       # episodes: what we did and why
+    semantic/                       # stable knowledge about the system
+  runs/                             # observability by run-id: role, model, tools (sections 5–6)
+    run-1842.json
+    run-1843.json                   # one file per run
+  budgets/                          # budgets and quotas of tokens and time (section 3, the loop from section 6)
+    token-quotas.json               # limits on roles and tasks
+  evidence/                         # evidence and decisions: what made it possible to close the stage (section 3)
+    judge-decisions/                # judge agent's decisions
+    test-reports/                   # test reports
+    architecture-checks/            # architecture checks

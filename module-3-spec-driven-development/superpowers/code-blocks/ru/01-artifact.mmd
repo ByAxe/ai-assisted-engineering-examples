@@ -1,0 +1,7 @@
+flowchart TD
+    B["brainstorming<br/>обдумать идею через вопросы"] --> W["using-git-worktrees<br/>изолированная ветка, чистый baseline"]
+    W --> P["writing-plans<br/>задачи по 2-5 минут"]
+    P --> E["subagent-driven-development<br/>/ executing-plans"]
+    E --> T["test-driven-development<br/>RED -> GREEN -> REFACTOR"]
+    T --> R["requesting-code-review<br/>замечания по серьёзности"]
+    R --> F["finishing-a-development-branch<br/>merge / PR / keep / discard"]

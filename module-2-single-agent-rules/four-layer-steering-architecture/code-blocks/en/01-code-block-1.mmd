@@ -1,0 +1,8 @@
+flowchart TB
+	L1["Layer 1 — Team invariants<br/>AGENTS.md / CLAUDE.md"]
+	L2["Layer 2 — Specifications<br/>.specs/feature/requirements, design, tasks"]
+	L3["Layer 3 — Skills and plugins<br/>in the repository, progressive disclosure"]
+	L4["Layer 4 — Hooks and meta-agents<br/>lifecycle gates, AOP-style"]
+	MCP["MCP — bridge to the external world<br/>Jira, GitHub, logs, databases"]
+	L1 --> L2 --> L3 --> L4
+	L4 -.-> MCP

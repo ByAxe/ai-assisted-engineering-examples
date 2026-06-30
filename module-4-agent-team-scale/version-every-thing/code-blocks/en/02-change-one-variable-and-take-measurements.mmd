@@ -1,0 +1,6 @@
+flowchart TB
+    A["Task"] --> B["Pin the versions of the influencing artifacts"]
+    B --> C["The agent performs a run"]
+    C --> D["Result / trace / PR"]
+    D --> E["Change one variable"]
+    E --> B

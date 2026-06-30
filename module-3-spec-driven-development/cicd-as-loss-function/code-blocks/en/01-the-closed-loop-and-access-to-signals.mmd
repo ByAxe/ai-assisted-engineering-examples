@@ -1,0 +1,7 @@
+flowchart TB
+    S["Specification: task + constraints"] --> C["Minimal change"]
+    C --> G["Checks: tests, linters, architecture checks"]
+    G --> R["Run: deploy or local smoke tests"]
+    R --> L["Logs, errors, diffs through MCP / API / CLI"]
+    L -->|signal diverges from the goal| C
+    L -->|all green| D["Done: PR to merge"]
