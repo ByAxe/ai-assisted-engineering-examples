@@ -1,0 +1,53 @@
+change_id: audit-log/query-api/2026-06-21/03
+trace_id: 01JY7Y3W2J5A7M7KZ4B1H9Q6QF
+owner:
+  human: ivan.petrov
+  execution_identity: claude-code-team-sa
+target:
+  repo: audit-log-service
+  branch: agent/query-api
+  worktree: ../wt-query-api
+  repo_commit: 91c4b2a
+  pr: 184
+runtime:
+  workflow: query-api-readonly
+  workflow_version: v2
+  agent:
+    name: query-api-impl
+    version: 2026-06-21
+provider:
+  name: anthropic
+  requested_model: claude-sonnet-4-6
+  resolved_model: claude-sonnet-4-6
+  reasoning_level: high
+prompt_stack:
+  - enterprise-policy@v3
+  - repo-agents@91c4b2a
+  - query-api-skill@v4
+  - task-instruction@run-local
+context:
+  specs:
+    - .specs/audit-log-query/spec.md@v4
+    - .specs/audit-log-query/plan.md@v2
+  retrieval_index: repo-index@2026-06-21
+  reference_bundle: read-api-guidelines@v3
+control_plane:
+  agents_md: AGENTS.md@91c4b2a
+  skills:
+    - search-read-api@v3
+  hooks:
+    - pre-push-ai-review@v2
+tools:
+  - name: readonly_sql
+    adapter: db-read-proxy@v5
+    schema: readonly-sql@v5
+    permissions: read_only
+  - name: repo_search
+    adapter: local-index@v3
+    schema: repo-search@v2
+evidence_links:
+  - trace://langfuse/tr_01JY7Y3...
+  - ci://github/actions/184
+result:
+  status: pr_open
+  rollback_marker: revert PR #184

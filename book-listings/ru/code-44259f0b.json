@@ -1,0 +1,19 @@
+{
+  "task_id": "audit-export-rbac-redaction",
+  "depends_on": ["audit-query-api", "audit-export-csv"],
+  "paths_allow": [
+    "src/audit/rbac/**",
+    "src/audit/redaction/**",
+    "tests/audit/**"
+  ],
+  "paths_avoid": [
+    "src/audit/query/**",
+    "src/audit/export/csv-writer/**"
+  ],
+  "done_when": [
+    "RBAC rules limit export by role",
+    "PII fields are redacted in API and CSV output",
+    "integration tests for restricted export pass"
+  ],
+  "deliverable": "commit + short summary + test output"
+}

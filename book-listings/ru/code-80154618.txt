@@ -1,0 +1,16 @@
+I want to write a <requirements.md | design.md | tasks.md> for feature <name>.
+The document template is attached below.
+
+Before you write anything, ask me 5–7 short clarifying questions about the
+decisions you would otherwise make by default: filters, edge cases, errors,
+contract, sort/order, constraints, integration with existing code.
+
+Rules:
+- one decision = one question;
+- if you have no real doubt, do NOT invent a question;
+- do NOT write the document until I answer;
+- after my answers, first list (one line per item) what you understood from them,
+  and only then write the document;
+- stick to the attached template; do not add new sections without asking.
+
+[attached document template]

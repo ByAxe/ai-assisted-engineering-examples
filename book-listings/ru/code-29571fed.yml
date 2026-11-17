@@ -1,0 +1,13 @@
+run_id: audit-log-query/2026-06-13/07
+task: add read-only Query API for audit log
+repo_commit: 91c4b2a
+prompt: query-api@v3
+model: model-x@2026-06-01
+context_bundle: audit-log-query@v4
+skills:
+  - search-read-api@v2
+  - keyset-pagination@v1
+tool_schema: readonly-sql@v5
+retrieval_index: repo-index@2026-06-12
+eval_dataset: query-api-regression@v2
+result: PR #184

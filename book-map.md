@@ -228,3 +228,31 @@ The map uses stable source labels and public repository paths.
 - **AI Champions** (code-block): `module-5-organization-adoption/ai-champions/code-blocks/ru/01-2..txt` - RU copyable text block from Паттерн 24. AI Champions.
 - **AI Champions** (mermaid): `module-5-organization-adoption/ai-champions/code-blocks/ru/02-4..mmd` - RU copyable mermaid block from Паттерн 24. AI Champions.
 - **Adoption Ladders** (mermaid): `module-5-organization-adoption/adoption-ladders/code-blocks/ru/01-5..mmd` - RU copyable mermaid block from Паттерн 25. Adoption Ladders.
+
+## Листинги книги
+
+Code listings replaced by a QR pointer in the printed book (ru).
+
+- **Урок 6. Контракт промпта: от 4 к 7 элементам** (listing): `book-listings/ru/code-6d754618.md` - Минимальный контракт для создания каркаса audit-log-service. (26 lines, `/go/code-6d754618`)
+- **Урок 6. Контракт промпта: от 4 к 7 элементам** (listing): `book-listings/ru/code-ce754618.md` - Полный контракт для первого шага в проекте audit-log-service. (33 lines, `/go/code-ce754618`)
+- **Паттерн 1. Инварианты** (listing): `book-listings/ru/code-a6c54618.md` - Пример AGENTS.md с картой проекта и архитектурными инвариантами. (35 lines, `/go/code-a6c54618`)
+- **Паттерн 3. Ask-before-writing (цикл уточняющих вопросов)** (listing): `book-listings/ru/code-80154618.txt` - Готовый промпт для уточнения требований перед подготовкой спецификации. (16 lines, `/go/code-80154618`)
+- **Методология 1. Spec-anchored** (listing): `book-listings/ru/code-72554618.md` - Требования к Query API для неизменяемого журнала аудита. (28 lines, `/go/code-72554618`)
+- **Методология 1. Spec-anchored** (listing): `book-listings/ru/code-71b54618.md` - Проектное решение Query API: контракт, пагинация и индексы. (23 lines, `/go/code-71b54618`)
+- **Методология 1. Spec-anchored** (listing): `book-listings/ru/code-36f54618.md` - План реализации Query API с критериями готовности. (20 lines, `/go/code-36f54618`)
+- **Паттерн 6. Spec self/auto-evals (чек-лист + прогон агентом)** (listing): `book-listings/ru/code-a3b54618.md` - Чек-лист самопроверки требований, дизайна и плана задач. (22 lines, `/go/code-a3b54618`)
+- **Паттерн 11. Narrow API surface** (listing): `book-listings/ru/code-9295a7bb.py` - Пример ограниченной сводки по одной странице событий аудита. (22 lines, `/go/code-9295a7bb`)
+- **Урок 12. Моральные принципы как инварианты** (listing): `book-listings/ru/code-9958dc70.md` - Пример глобальных моральных инвариантов для AGENTS.md. (24 lines, `/go/code-9958dc70`)
+- **Методология 4. Kiro (AWS)** (listing): `book-listings/ru/code-7d9f9c81.txt` - Требования Query API в EARS-нотации. (19 lines, `/go/code-7d9f9c81`)
+- **Паттерн 14. Version Every Thing (VET)** (listing): `book-listings/ru/code-29571fed.yml` - Манифест воспроизводимого запуска Query API. (13 lines, `/go/code-29571fed`)
+- **Паттерн 14. Version Every Thing (VET)** (listing): `book-listings/ru/code-719c5eba.yml` - Структурированный манифест воспроизводимого запуска. (53 lines, `/go/code-719c5eba`)
+- **Паттерн 18. Branch-and-merge оркестрация** (listing): `book-listings/ru/code-44259f0b.json` - Карточка задачи для оркестрации с зависимостями и ограничениями путей. (19 lines, `/go/code-44259f0b`)
+- **Паттерн 19. Иерархические команды агентов с общей памятью** (listing): `book-listings/ru/code-ece8059f.json` - Структурированная передача заблокированной задачи следующему агенту. (26 lines, `/go/code-ece8059f`)
+- **Паттерн 19. Иерархические команды агентов с общей памятью** (listing): `book-listings/ru/code-3f2b260f.txt` - Структура координации, памяти и передачи работы в команде агентов. (19 lines, `/go/code-3f2b260f`)
+- **Паттерн 20. Swarms и оркестрация** (listing): `book-listings/ru/code-053c87ea.json` - Событие, запускающее параллельную работу агентов. (28 lines, `/go/code-053c87ea`)
+- **Паттерн 20. Swarms и оркестрация** (listing): `book-listings/ru/code-89f60bb8.txt` - Структура событийной оркестрации команды агентов. (32 lines, `/go/code-89f60bb8`)
+- **Паттерн 23. Reproducibility unit + audit trail** (listing): `book-listings/ru/code-2fd9b16f.yml` - Манифест воспроизводимого запуска с контекстом, инструментами и доказательствами. (53 lines, `/go/code-2fd9b16f`)
+- **Паттерн 23. Reproducibility unit + audit trail** (listing): `book-listings/ru/code-deb6a628.yml` - Журнал действий агента с решениями и результатами проверок. (44 lines, `/go/code-deb6a628`)
+- **Методология 7. Tessl** (listing): `book-listings/ru/code-91f6c3f0.txt` - Структура tile с контекстом, правилами и навыками. (13 lines, `/go/code-91f6c3f0`)
+- **Методология 7. Tessl** (listing): `book-listings/ru/code-11b2eb7c.txt` - Пример пакета контекста для задачи audit-log-java. (14 lines, `/go/code-11b2eb7c`)
+- **Методология 10. AI-DLC** (listing): `book-listings/ru/code-d9b7f8ff.txt` - Структура документации AI-DLC для проекта. (19 lines, `/go/code-d9b7f8ff`)

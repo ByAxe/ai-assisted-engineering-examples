@@ -1,0 +1,53 @@
+run:
+  id: "run-..."
+  started_at: "..."
+  initiator:
+    human_or_service: "..."
+    organization_role: "..."
+  task:
+    spec_ref: "..."
+    commit_base: "..."
+    risk_tier: "medium"
+
+runtime:
+  agent_client: "..."
+  agent_client_version: "..."
+  harness_version: "..."
+  model_provider: "..."
+  model_identifier_returned_by_provider: "..."
+  reasoning_or_budget_profile: "..."
+  environment_image_digest: "..."
+  sandbox_profile: "..."
+
+instructions:
+  repository_instruction_hashes: []
+  skill_package_versions: []
+  plugin_versions: []
+  policy_bundle_version: "..."
+  interaction_rules:
+    classifier_version: "..."
+    routing_policy_version: "..."
+    presentation_rules_version: "..."
+    waiting_rules_version: "..."
+
+context:
+  context_bundle_version: "..."
+  retrieval_index_snapshot: "..."
+  eval_dataset_version: "..."
+
+capabilities:
+  tool_catalog_hash: "..."
+  mcp_protocol_version: "..."
+  mcp_server_versions: []
+  filesystem_scope: []
+  network_policy: "..."
+  credential_subjects_and_scopes: []
+
+evidence:
+  deterministic_checks: []
+  behavioral_evals: []
+  preview_or_runtime_evidence: []
+  human_decisions: []
+  trace_id: "..."
+  cost: {}
+  result_commit: "..."

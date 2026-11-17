@@ -1,0 +1,26 @@
+{
+  "task_id": "audit-export-rbac",
+  "role": "security-specialist",
+  "status": "blocked",
+  "branch": "feat/audit-rbac",
+  "what_changed": [
+    "added role checks for export",
+    "introduced redaction for pii fields"
+  ],
+  "checks_run": [
+    "audit-rbac-tests",
+    "redaction-contract-tests"
+  ],
+  "open_questions": [
+    "should API and CSV share one redaction policy object?"
+  ],
+  "next_agent_should_read": [
+    "memory/working/current-state.md",
+    "memory/episodic/audit-export-rbac.md",
+    "memory/semantic/redaction-policy.md",
+    "session-log/2026-06-18.ndjson#148-173"
+  ],
+  "unblocks": [
+    "final-review"
+  ]
+}

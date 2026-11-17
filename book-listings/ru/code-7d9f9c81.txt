@@ -1,0 +1,19 @@
+# Query API — requirements (EARS)
+
+THE AUDIT QUERY API SHALL expose a read-only endpoint over the audit log
+  and never mutate stored events.
+
+WHEN a request provides actor and a valid from/to,
+  THE AUDIT QUERY API SHALL return 200 with items sorted by recordedAt DESC, id DESC.
+
+WHEN a request provides resourceType, resourceId and a valid from/to,
+  THE AUDIT QUERY API SHALL return 200 with items sorted by recordedAt DESC, id DESC.
+
+WHEN a valid request matches no events,
+  THE AUDIT QUERY API SHALL return 200 with an empty items array and nextCursor: null.
+
+IF to - from exceeds 31 days,
+  THEN THE AUDIT QUERY API SHALL return 422 with a range-limit message.
+
+WHEN a request supplies a valid cursor,
+  THE AUDIT QUERY API SHALL return the next page with no duplicates and no gaps.

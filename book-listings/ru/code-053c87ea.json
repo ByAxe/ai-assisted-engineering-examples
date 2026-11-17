@@ -1,0 +1,28 @@
+{
+  "trigger": "dependencies_ready",
+  "task_id": "audit-export-rbac-redaction",
+  "start_when": [
+    "audit-query-api is done on the current baseline",
+    "audit-export-csv is done on the current baseline"
+  ],
+  "spawn": [
+    "rbac-redaction-worker"
+  ],
+  "baseline": {
+    "schema": "v3",
+    "policy": "redaction-2026-06-19"
+  },
+  "context": [
+    "memory/working/current-state.md",
+    "memory/episodic/audit-query-api.md",
+    "memory/episodic/audit-export-csv.md",
+    "contracts/audit-query-api.yaml",
+    "contracts/audit-export-csv.yaml"
+  ],
+  "stop_when": [
+    "export contract passes",
+    "rbac checks pass",
+    "pii redaction contract passes"
+  ],
+  "fallback": "pause_and_request_review"
+}
